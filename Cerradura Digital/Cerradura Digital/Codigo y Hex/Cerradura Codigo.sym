@@ -1,0 +1,125 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     kbd_getc.kbd_call_count
+005.0   kbd_getc.kbd_down
+006     kbd_getc.last_key
+007     kbd_getc.col
+008     x
+009     i
+00A     y
+00B     K
+00C-010 c
+011-016 D
+017-018 @sprintf_string
+019     lcd_init.i
+019     kbd_getc.kchar
+019     MAIN.@SCRATCH1
+019     @PSTRINGC_758.@SCRATCH1
+01A     kbd_getc.row
+01A-01D lcd_init.LCD_INIT_STRING
+01A     MAIN.@SCRATCH2
+01A     @PSTRINGC_758.@SCRATCH2
+01B     lcd_putc.c
+01B     kbd_getc.@SCRATCH1
+01C     lcd_gotoxy.x
+01C     kbd_getc.@SCRATCH2
+01D     lcd_gotoxy.y
+01E     lcd_gotoxy.address
+01E     @delay_ms1.P1
+01E     lcd_init.@SCRATCH1
+01F     lcd_gotoxy.@SCRATCH1
+020     lcd_send_byte.address
+021     lcd_send_byte.n
+022     lcd_read_byte.low
+022     lcd_send_byte.@SCRATCH1
+023     lcd_read_byte.high
+023     lcd_send_nibble.n
+024     lcd_read_byte.@SCRATCH1
+F81     kbd
+F83     lcd
+F83     PSP_DATA
+F8C     lcdlat
+F95     lcdtris
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2_LOW
+FBB     CCP_2
+FBC     CCP_2_HIGH
+FBE     CCP_1_LOW
+FBE     CCP_1
+FBF     CCP_1_HIGH
+FE1-FE2 @READ_PACKED_MEMORY.P1
+FE1-FE2 @WRITE_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PACKED_MEMORY.P1
+FE9-FEA @WRITE_PROGRAM_MEMORY.P2
+FE9-FEA @READ_PACKED_MEMORY.P3
+FE9-FEA @READ_PROGRAM_MEMORY.P4
+FF6-FF8 @READ_PROGRAM_MEMORY.P1
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+000004  KEYS.call
+000014  KEYS.data
+000024  @const800.call
+00003A  @const793.call
+00004C  @const799.call
+00005C  @const802.call
+00006E  @const806.call
+000082  @delay_ms1
+0000AA  lcd_send_nibble
+0000C6  lcd_read_nibble
+0000D2  lcd_read_byte
+000110  lcd_send_byte
+00014A  lcd_init
+0001BE  kbd_init
+0001C2  kbd_getc
+000276  @goto29078
+000298  lcd_gotoxy
+0002BA  lcd_putc
+00030A  @PSTRINGC_758
+00032A  MAIN
+00032A  @cinit1
+000342  @cinit2
+
+Project Directory:
+    C:\Users\juans\Desktop\Cerradura Digital\
+
+Project Files:
+    Cerradura Codigo.c                                      [09-Mar-22 14:59  CRC=C9F5A8A1]
+    D:\CCS\Devices\18f4550.h                                [11-Jan-22 15:48  CRC=BFBE72F1]
+    D:\CCS\Drivers\lcd.c                                    [22-Feb-16 09:05  CRC=D1A6378A]
+    D:\CCS\Devices\kbd1.c                                   [09-Mar-22 14:44  CRC=ADACD6A8]
+
+Source signature=B6B4006C
+Program memory checksum=0000
+Hex file CRC=3BA6
+
+Units:
+    C:\Users\juans\Desktop\Cerradura Digital\Cerradura Codigo (main)
+
+Compiler Settings:
+    Processor:      PIC18F4550
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:   CCS5
+
+Compiler operating in Evaluation Mode
+To obtain a fully enabled compiler visit www.ccsinfo.com/products
+
+Output Files:
+    XREF file:   Cerradura Codigo.xsym
+    Errors:      Cerradura Codigo.err
+    Ext Symbols: Cerradura Codigo.esym
+    INHX32:      Cerradura Codigo.hex
+    Symbols:     Cerradura Codigo.sym
+    List:        Cerradura Codigo.lst
+    Debug/COFF:  Cerradura Codigo.cof
+    Project:     Cerradura Codigo.ccspjt
+    Call Tree:   Cerradura Codigo.tre
+    Statistics:  Cerradura Codigo.STA

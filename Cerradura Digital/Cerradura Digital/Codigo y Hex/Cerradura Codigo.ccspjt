@@ -1,0 +1,33 @@
+[PROJECT]
+Target=Cerradura Codigo.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.107Pd
+Compiler=PCH
+[Target Data]
+FileList=Cerradura Codigo.c
+[Cerradura Codigo.c]
+Type=4
+[mru-list]
+1=Cerradura Codigo.c
+
+[defines]
+buildcount=2
+
+[Opened Files]
+1=Cerradura Codigo.c
+t1=73
+Count=1
+[Units]
+Count=1
+1=Cerradura Codigo (main)
+
+[ProjectLog]
+Days=1
+D1=09-03-2022
+D1_L=2
+D1_L1=[54230]Stopped Editing.
+TotalEdit=5
+TotalDebug=0
+D1_E=5
+D1_D=0
+D1_L2=[54230]Project Closed.

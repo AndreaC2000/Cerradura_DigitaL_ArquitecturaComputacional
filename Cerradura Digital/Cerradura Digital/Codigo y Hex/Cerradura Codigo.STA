@@ -1,0 +1,64 @@
+
+ROM used:   1276/32768 (4%)
+            1276/32768 (4%) including unused fragments
+
+            0.8 Average locations per line
+            6.8 Average locations per statement
+
+RAM used:   27/2048 (1%) at main() level
+            37/2048 (2%) worst case
+
+Stack used: 5 worst case (5 in main + 0 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  102    62  33  Cerradura Codigo.c
+  877     0   0  D:\CCS\Devices\18f4550.h
+  456    84  44  D:\CCS\Drivers\lcd.c
+  135    43  23  D:\CCS\Devices\kbd1.c
+----- -----
+ 1570   189 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0     40   2    1             @delay_ms1
+0     62   2    3    596  5.9  lcd_read_byte
+0     12   0    0     59  4.2  lcd_read_nibble
+0     28   1    1    179  3.3  lcd_send_nibble
+0     58   2    3    460  4.7  lcd_send_byte
+0    116   5    6    814  7.2  lcd_init
+0     34   1    4    208  6.3  lcd_gotoxy
+0     80   3    1    354  4.7  lcd_putc
+0     32   1    0             @const772
+0      4   0    0      3  0.0  kbd_init
+0    180   7    4   5861 10.2  kbd_getc
+0     34   1    0             @goto29078
+0    466  18    2   2063  8.8  MAIN
+0     18   1    0             @const793
+0     32   1    2             @PSTRINGC_758
+0     16   1    0             @const799
+0     22   1    0             @const800
+0     18   1    0             @const802
+0     20   1    0             @const806
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               10
+    Statements              189
+    Comments                284
+    Volume (V)              14165
+    Difficulty (D)          53.3
+    Effort to implement (E) 754593
+    Time to implement (T)   11 hours, 39 minutes
+    Est Delivered Bugs (B)  3
+    Cyclomatic Complexity   32
+    Maintainability (MI)    131
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-07FFE  1272  31492  
+
+
+
